@@ -1,4 +1,4 @@
-Python program developed by:
+Very simple python program developed by:
 Github -> Kuch72
 Discord -> Kuch!#0001
 
