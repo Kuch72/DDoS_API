@@ -38,7 +38,7 @@ while True:
         method = input("Write attack method: ")
         time = input("Write attack time: ")
         #conc = input("Write how much concurrents: ")
-        #r = requests.get("https://elpais.com/") ## Here put your api
+        r = requests.get("") ## Here put your api
         print("Sending attacks...")
         print("Thanks for using Kuch API DDoS tool. Exiting in 10 seconds...")
         import time
