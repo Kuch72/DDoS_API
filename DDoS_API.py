@@ -20,7 +20,8 @@ def borrarpant():
 def kuch():
     print(""" 1. For attack
  2. For exiting 
- 3. For looking for my github""")
+ 3. For looking for my github
+ 4. For check if host up or down. [Temporaly only LINUX] """)
 
 ## Fin funciones
 
@@ -58,7 +59,14 @@ while True:
             quit()
         else:
             print("Invalid argument.")
+    elif atacar == "4":
+        dominio = input("Enter the domain: ")
+        ping = os.system("ping -c 1" + dominio)
+        if ping == 0:
+            print(dominio, "Is up")
+            time.sleep(2)
+        else:
+            print(dominio, "is down")
+            time.sleep(2)
     else:
         print("Invalid argument. ")
-
-        
