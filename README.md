@@ -12,6 +12,8 @@ Installation:
 
 `` python3 DDoS_API.py ``
 
+You only need to have an API for sending HTTP requests and replacing it on the print of the line 64!
+
 You are free to add functions to this program and I will be happy to see them.
 
 The reselling of this code is prohibited as it is an open source program.
