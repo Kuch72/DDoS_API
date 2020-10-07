@@ -35,11 +35,13 @@ def borrarpant():
     else:
         os.system ("clear")
 
+
 def kuch():
     print(GREEN+""" [1] For attacking
  [2] For checking if host up or down.
  [3] For looking for my github
- [4] For exiting """)
+ [4] For looking for instructions
+ [5] For exiting """)
 
 ## Fin funciones
 
@@ -65,7 +67,7 @@ while True:
         import time
         time.sleep(10)
         quit()
-    elif atacar == "4":
+    elif atacar == "5":
         quit()
     elif atacar == "3":
         webbrowser.open("https://github.com/Kuch72")
@@ -88,5 +90,8 @@ while True:
         else:
             print(RED+ dominio, "is down")
             time.sleep(2)
+    elif atacar == "4":
+        print(os.system("cat README.md"))
+        time.sleep(15)
     else:
         print(RED+"Invalid argument. ")
