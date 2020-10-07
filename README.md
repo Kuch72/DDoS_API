@@ -1,8 +1,11 @@
 [Only for Linux]
+
 Very simple python program developed by:
 Github -> Kuch72
 Discord -> Kuch!#0001
+
 Installation:
+
 `` git clone https://github.com/Kuch72/DDoS_API/ ``
 `` cd DDoS_API.py ``
 `` python3 DDoS_API.py ``
