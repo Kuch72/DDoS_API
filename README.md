@@ -7,7 +7,9 @@ Discord -> Kuch!#0001
 Installation:
 
 `` git clone https://github.com/Kuch72/DDoS_API/ ``
+
 `` cd DDoS_API.py ``
+
 `` python3 DDoS_API.py ``
 
 You are free to add functions to this program and I will be happy to see them.
